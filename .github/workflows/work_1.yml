@@ -7,9 +7,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:  
-    - name: Print something 1
+    - name: Print something
       run: echo "Impresión 1
-    - name: Print something 2
+    - name: Print something
       run: echo "Impresión 2"
-    - name: Print something 3
+    - name: Print something
       run: echo "Impresión 3" 
