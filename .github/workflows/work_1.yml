@@ -8,10 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:  
     - name: Print something 1
-      run: echo "Impresión 1"
-    steps: 
+      run: echo "Impresión 1
     - name: Print something 2
       run: echo "Impresión 2"
-    steps: 
     - name: Print something 3
       run: echo "Impresión 3" 
