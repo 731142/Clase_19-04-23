@@ -14,7 +14,7 @@ jobs:
         node-version: '14.x'
 
     - name: Print Name
-      run: echo "Mi nombre completo es: Fernando De Santos Franco"
+      run: echo "Mi nombre completo es Fernando De Santos Franco"
 
     - name: Print Node.js Version
       run: node -v
