@@ -1,8 +1,15 @@
-name: Work 1 Forx
+name: Pregunta Examen3
 on: [push]
 jobs:
-  build:
+  print-information:
     runs-on: ubuntu-latest
-    steps: 
-    - name: Print something
-      run: echo "Hola Guayaba!"
+    steps:
+
+    - name: Print Name
+      run: echo "Mi nombre completo es: Fernando De Santos Franco"
+
+    - name: Print Node.js Version
+      run: node -v
+
+    - name: Print Expediente
+      run: echo "Mi expediente es: 731142"
