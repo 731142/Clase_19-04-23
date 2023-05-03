@@ -1,5 +1,6 @@
 name: Pregunta Examen3
-on: [push]
+on:
+  push:
 jobs:
   print-information:
     runs-on: ubuntu-latest
