@@ -20,4 +20,4 @@ jobs:
       run: node -v
 
     - name: Print Expediente
-      run: echo "Mi expediente es: 731142"
+      run: echo "Mi expediente es  731142"
